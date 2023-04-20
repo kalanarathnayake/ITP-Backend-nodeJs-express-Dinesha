@@ -100,7 +100,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"Kalana \",\r\n    \"lastName\": \"Rathnayake\",\r\n    \"nic\": \"980910323V\",\r\n    \"validMonths\": \"6\",\r\n    \"trainClass\": \"3rd Class\",\r\n    \"fromStation\": \"Panadura\",\r\n    \"toStation\": \"Bambalapitiya\"\r\n}",
+							"raw": "{\r\n    \"firstName\": \"aaaaa \",\r\n    \"lastName\": \"aaaa\",\r\n    \"nic\": \"aaaa\",\r\n    \"validMonths\": \"aaa\",\r\n    \"trainClass\": \"aaa aaaa\",\r\n    \"fromStation\": \"aaaa\",\r\n    \"toStation\": \"aaaaa\",\r\n    \"createdDate\": \"03/04/2017\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -143,7 +143,7 @@
 						],
 						"body": {
 							"mode": "raw",
-							"raw": "{\r\n    \"firstName\": \"Isuri \",\r\n    \"lastName\": \"Rathnayake\",\r\n    \"nic\": \"980910323V\",\r\n    \"validMonths\": \"6\",\r\n    \"trainClass\": \"3rd Class\",\r\n    \"fromStation\": \"Panadura\",\r\n    \"toStation\": \"Bambalapitiya\"\r\n}",
+							"raw": "{\r\n    \"firstName\": \"Kalana \",\r\n    \"lastName\": \"Rathnayake\",\r\n    \"nic\": \"9809101323V\",\r\n    \"validMonths\": \"6\",\r\n    \"trainClass\": \"3rd Class\",\r\n    \"fromStation\": \"Panadura\",\r\n    \"toStation\": \"Bambalapitiya\",\r\n    \"createdDate\": \"03/04/2000\"\r\n}",
 							"options": {
 								"raw": {
 									"language": "json"
@@ -151,7 +151,7 @@
 							}
 						},
 						"url": {
-							"raw": "http://localhost:5000/pass/64418868a16cf891ea11dacb",
+							"raw": "http://localhost:5000/pass/6441a72894b86202b94eca35",
 							"protocol": "http",
 							"host": [
 								"localhost"
@@ -159,7 +159,7 @@
 							"port": "5000",
 							"path": [
 								"pass",
-								"64418868a16cf891ea11dacb"
+								"6441a72894b86202b94eca35"
 							]
 						},
 						"description": "This API provides access to update any existing news in the news board. Used by admin to perform any modifications to any existing news articles in the news board."
