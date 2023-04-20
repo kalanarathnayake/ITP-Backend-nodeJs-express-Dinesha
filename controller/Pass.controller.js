@@ -3,7 +3,7 @@ const Pass = require('../model/Pass.model');
 //Create new pass 
 const createPass = async (req, res) => {
     //catching data from front end to these attributes
-    const { firstName, lastName, nic, validMonths, trainClass, fromStation, toStation } = req.body;
+    const { firstName, lastName, nic, validMonths, trainClass, fromStation, toStation, createdDate } = req.body;
 
     //create a object to store saved data to save in the mongo db database
     const pass = new Pass({
@@ -14,6 +14,7 @@ const createPass = async (req, res) => {
         trainClass,
         fromStation,
         toStation,
+        createdDate,
     });
 
     //sending created pass object to the database 
@@ -65,6 +66,7 @@ const updatePass = async (req, res) => {
             exsistingPass.trainClass = req.body.trainClass;
             exsistingPass.fromStation = req.body.fromStation;
             exsistingPass.toStation = req.body.toStation;
+            exsistingPass.createdDate = Date.parse(req.body.createdDate);
             exsistingPass.save()
                 .then((updatedPass) => res.json(updatedPass))
                 .catch((error) => res.status(400).json("Error: " + error));

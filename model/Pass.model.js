@@ -9,6 +9,7 @@ const passSchema = new Schema({
     trainClass: { type: String, required: true },
     fromStation: { type: String, required: true },
     toStation : { type: String, required: true },
+    createdDate : { type: Date, required: true },
 }, {
     timestamps: true,
 })
